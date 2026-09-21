@@ -2,53 +2,44 @@
   <img src="https://raw.githubusercontent.com/xhencall/xhencall/refs/heads/main/assets/header.svg" alt="Shawn Chen — Statistics, Machine Learning, and Scientific Computing" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://stat.osu.edu/people/chen.4747"><img src="https://img.shields.io/badge/Ohio_State-Statistics_PhD_Student-BA0C2F?style=flat-square" alt="Ohio State Statistics" /></a>
-  <a href="https://www.linkedin.com/in/zixuan-chen-5057a854"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:chen.4747@osu.edu"><img src="https://img.shields.io/badge/Email-chen.4747%40osu.edu-475569?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+# Zixuan (Shawn) Chen, PhD
 
-I am a **Statistics PhD student at The Ohio State University** working at the intersection of statistical inference, machine learning, and scientific computing. I enjoy turning mathematical ideas into reliable, reproducible software—especially for problems with complex dependence structures and meaningful uncertainty.
+**PhD in Statistics, The Ohio State University · May 2026**  
+Statistical inference · Machine learning · Scientific computing
 
-### What I work on
+[Email: xhencall@gmail.com](mailto:xhencall@gmail.com) · [LinkedIn](https://www.linkedin.com/in/zixuan-chen-5057a854) · [Research software](https://github.com/xhencall/Species_Network_Functions)
 
-| Statistical machine learning | Computational statistics | Phylogenetic inference |
-|:---|:---|:---|
-| Ensemble learning, model tuning, explainability, and forecasting | Composite likelihood, MCMC, optimization, and uncertainty quantification | Species networks, site-pattern methods, and evolutionary models |
+I am a statistician with a PhD in Statistics from The Ohio State University, awarded in May 2026. My work connects probabilistic modeling, numerical optimization, and scientific Python, with a research focus on phylogenetic inference and uncertainty quantification.
 
-### Featured work
+**I am interested in data scientist, research scientist, and postdoctoral opportunities**, particularly in statistical modeling, computational statistics, and machine learning. Based in Columbus, Ohio.
 
-<a href="https://github.com/xhencall/Species_Network_Functions">
-  <img align="right" width="120" src="https://img.shields.io/badge/Python-Research_Software-0F766E?style=for-the-badge&logo=python&logoColor=white" alt="Python research software" />
-</a>
+## Selected research software
 
-**[Species Network Functions](https://github.com/xhencall/Species_Network_Functions)**  
-A scientific Python toolkit for phylogenetic-network inference under the **Multispecies Network Coalescent (MSNC)**. It connects topology manipulation and site-pattern processing with MCLE estimation, Godambe information, hypothesis testing, and curvature-adjusted MCMC.
+### [Species Network Functions](https://github.com/xhencall/Species_Network_Functions)
 
-`PhyloX` · `DendroPy` · `NumPy` · `SciPy` · `NetworkX` · `PAUP*`
+**The problem.** Evolutionary histories can involve hybridization, so a branching tree alone may not describe the relationships among species. This project supports parameter inference on species networks from DNA sequence data under the Multispecies Network Coalescent (MSNC) model.
 
-### Tools I use
+**The implementation.** Built on PhyloX, the Python toolkit connects network and quartet manipulation, DNA site-pattern processing, maximum composite likelihood estimation, and curvature-adjusted MCMC. The workflow estimates speciation times, population-size parameters, and inheritance probabilities.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
-  <img src="https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/XGBoost-DC2626?style=flat-square" alt="XGBoost" />
-  <img src="https://img.shields.io/badge/LightGBM-166534?style=flat-square" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/CatBoost-FACC15?style=flat-square&logoColor=111827" alt="CatBoost" />
-  <img src="https://img.shields.io/badge/SHAP-7C3AED?style=flat-square" alt="SHAP" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
+**What to inspect:**
 
-### Current focus
+- **Numerical estimation:** parameter-space transformations and multi-start BFGS optimization for constrained statistical parameters.
+- **Uncertainty quantification:** score, sensitivity, and variability calculations, together with Godambe information and curvature adjustment for composite likelihood inference.
+- **Scientific data processing:** DNA alignment parsing, ambiguity-code handling, and vectorized mappings from global site patterns to quartet frequencies.
 
-- Developing statistically principled methods for inference on phylogenetic networks.
-- Building maintainable research software around likelihood-based estimation and simulation.
-- Applying ensemble methods and interpretable ML to real-world modeling problems.
+[Project overview & conceptual workflow](https://github.com/xhencall/Species_Network_Functions#quickstart--basic-usage) · [Core implementation](https://github.com/xhencall/Species_Network_Functions/blob/main/Network_functions_v01.py) · [Object-oriented version](https://github.com/xhencall/Species_Network_Functions/tree/main/oop_ver)
 
-<p align="center">
-  <sub>Columbus, Ohio · Open to research and data science collaborations</sub>
-</p>
+*Research software; the project documentation identifies hypothesis testing and simulation extensions as ongoing work.*
+
+## Methods and tools
+
+- **Computational statistics:** composite likelihood, Bayesian MCMC, numerical optimization, simulation, and uncertainty quantification.
+- **Statistical machine learning:** Random Forest, XGBoost, LightGBM, CatBoost, hyperparameter tuning with Optuna, and model interpretation with SHAP.
+- **Programming and data:** Python, R, SQL, NumPy, pandas, SciPy, and Git.
+- **Scientific computing:** PhyloX, NetworkX, DendroPy, and PAUP*.
+
+The linked research repository is the primary public code sample for my computational statistics work.
+
+## Contact
+
+For hiring, postdoctoral opportunities, or research collaboration, contact **[xhencall@gmail.com](mailto:xhencall@gmail.com)** or connect on [LinkedIn](https://www.linkedin.com/in/zixuan-chen-5057a854).
