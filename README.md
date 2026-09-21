@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Shawn Chen — Statistics, Machine Learning, and Scientific Computing" width="100%" />
+  <img src="https://raw.githubusercontent.com/xhencall/xhencall/main/assets/header.svg" alt="Shawn Chen — Statistics, Machine Learning, and Scientific Computing" width="100%" />
 </p>
 
 <p align="center">
