@@ -1,1 +1,48 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.52" stop-color="#102B3F"/>
+      <stop offset="1" stop-color="#0E4B56"/>
+    </linearGradient>
+    <linearGradient id="line" x1="740" y1="40" x2="1140" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1050" cy="-12" r="220" fill="#22D3EE" fill-opacity="0.05"/>
+  <circle cx="1180" cy="330" r="260" fill="#2DD4BF" fill-opacity="0.06"/>
+  <path d="M0 264C156 230 265 284 416 248C545 218 623 160 764 177C922 196 1020 271 1200 222" stroke="#A5F3FC" stroke-opacity="0.08" stroke-width="2"/>
+
+  <text x="72" y="112" fill="#F8FAFC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Shawn Chen</text>
+  <text x="75" y="159" fill="#A5F3FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="24" font-weight="500">Statistics · Machine Learning · Scientific Computing</text>
+  <rect x="75" y="191" width="82" height="4" rx="2" fill="#2DD4BF"/>
+  <text x="75" y="240" fill="#CBD5E1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19">Building reliable models for complex data and uncertainty.</text>
+
+  <g stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.88">
+    <path d="M804 72L902 116L1000 72"/>
+    <path d="M902 116L902 198"/>
+    <path d="M902 198L830 252"/>
+    <path d="M902 198L974 252"/>
+    <path d="M1000 72L1082 132"/>
+    <path d="M1082 132L1044 218"/>
+    <path d="M1082 132L1140 205"/>
+  </g>
+  <g fill="#08111F" stroke="#67E8F9" stroke-width="3" filter="url(#glow)">
+    <circle cx="804" cy="72" r="10"/>
+    <circle cx="902" cy="116" r="12"/>
+    <circle cx="1000" cy="72" r="10"/>
+    <circle cx="902" cy="198" r="11"/>
+    <circle cx="830" cy="252" r="9"/>
+    <circle cx="974" cy="252" r="9"/>
+    <circle cx="1082" cy="132" r="11"/>
+    <circle cx="1044" cy="218" r="9"/>
+    <circle cx="1140" cy="205" r="9"/>
+  </g>
+</svg>
