@@ -13,6 +13,19 @@ I am a statistician with a PhD in Statistics from The Ohio State University, awa
 
 **I am interested in data scientist, research scientist, and postdoctoral opportunities**, particularly in statistical modeling, computational statistics, and machine learning. Based in Columbus, Ohio.
 
+## Publication and conference presentation
+
+**Peer-reviewed publication**  
+Kubatko, L. S., Kong, S., Webb, E., & **Chen, Z.** (2025). [The promise of composite likelihood for species-level phylogenomic inference](https://doi.org/10.1093/evolinnean/kzaf008). *Evolutionary Journal of the Linnean Society*, 4(1), kzaf008.
+
+My contributions include conceptualization, investigation, methodology, validation, and manuscript review and editing. [Ohio State research spotlight](https://stat.osu.edu/news/student-research-spotlight-october-2025-0) · [Paper data repository](https://github.com/lkubatko/Promise-of-Composite-Likelihood)
+
+**Submitted manuscript**  
+**Chen, Z.**, & Kubatko, L. S. “Composite likelihood adjustment in Bayesian inference for estimating species tree parameters under the multispecies coalescent.” *Submitted; not yet published.*
+
+**Conference talk · Evolution 2025 (virtual), May 29–30, 2025**  
+“Bayesian inference of speciation times using adjusted composite likelihood under the MSC.” Presented by Zixuan Chen; coauthor: Laura Kubatko.
+
 ## Selected research software
 
 ### [Species Network Functions](https://github.com/xhencall/Species_Network_Functions)
@@ -31,15 +44,25 @@ I am a statistician with a PhD in Statistics from The Ohio State University, awa
 
 *Research software; the project documentation identifies hypothesis testing and simulation extensions as ongoing work.*
 
+## Applied statistics and communication
+
+**Statistical Consultant · The Ohio State University · January–May 2023**
+
+- **Biomedical research:** supported an Alzheimer's treatment study using ANOVA and Tukey comparisons, and mentored a master's student in statistical analysis.
+- **Water treatment:** analyzed organic carbon reduction, checked regression assumptions, evaluated prediction error with cross-validation, and communicated findings to engineers.
+- **Energy modeling:** combined principal component analysis with linear regression and explained time-series patterns to a nontechnical client.
+
+**Teaching recognition:** Thomas and Jean Powers Award for Teaching (2020).
+
 ## Methods and tools
 
 - **Computational statistics:** composite likelihood, Bayesian MCMC, numerical optimization, simulation, and uncertainty quantification.
 - **Statistical machine learning:** Random Forest, XGBoost, LightGBM, CatBoost, hyperparameter tuning with Optuna, and model interpretation with SHAP.
 - **Programming and data:** Python, R, SQL, NumPy, pandas, SciPy, and Git.
-- **Scientific computing:** PhyloX, NetworkX, DendroPy, and PAUP*.
+- **Scientific computing:** PhyloX, NetworkX, DendroPy, PAUP*, Mathematica for analytical derivatives, and Bash workflows for simulations on HPC clusters.
 
 The linked research repository is the primary public code sample for my computational statistics work.
 
 ## Contact
 
-For hiring, postdoctoral opportunities, or research collaboration, contact **[xhencall@gmail.com](mailto:xhencall@gmail.com)** or connect on [LinkedIn](https://www.linkedin.com/in/zixuan-chen-5057a854).
+For hiring, postdoctoral opportunities, or research collaboration, contact **[xhencall@gmail.com](mailto:xhencall@gmail.com)** or connect on [LinkedIn](https://www.linkedin.com/in/zixuan-chen-5057a854). Resume available on request.
